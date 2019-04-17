@@ -1,0 +1,7 @@
+sitename_changer.content:
+  path: '/custom-site-settings'
+  defaults: 
+    _controller: 'Drupal\sitename_changer\Controller\Controller::test'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'

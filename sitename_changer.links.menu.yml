@@ -1,0 +1,6 @@
+sitename_changer.admin: 
+  title: 'site name changer settings'
+  description: 'settings for name changer'
+  parent: system.admin_config_development
+  route_name: sitename_changer.content
+  weight: 100
