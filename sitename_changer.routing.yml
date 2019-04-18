@@ -1,7 +1,8 @@
 sitename_changer.content:
   path: '/custom-site-settings'
   defaults: 
-    _controller: 'Drupal\sitename_changer\Controller\Controller::test'
+    # _controller: 'Drupal\sitename_changer\Controller\Controller::myPage'
     _title: 'Hello World'
+    _form: '\Drupal\sitename_changer\Form\ExampleForm'
   requirements:
     _permission: 'access content'
