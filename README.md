@@ -29,7 +29,6 @@ To use the module, access it by adding this to your url.
 
 ## Authors
 
-* **Erik Berggren** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Erik Berggren**  - [erikbrgn](https://github.com/erikbrgn)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
