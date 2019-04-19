@@ -1,5 +1,5 @@
 name: Site Name Changer
-description: Changes the old name of the site to a new specified name.
+description: Changes the current name of the site to any specified value.
 package: custom
 
 type: module
