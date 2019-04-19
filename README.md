@@ -15,7 +15,7 @@ In order for this module to work you must have a site running Drupal 8. If you d
 
 Simply clone this repository and place it under.
 ```
-exampleSite\modules\custom\
+"YourDrupalSite"\modules\custom\
 ```
 If there is no custom folder either create it or just place the module in the modules folder.
 
