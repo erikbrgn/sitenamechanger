@@ -26,6 +26,7 @@ To use the module, access it by adding this to your url.
 ```
 /custom-site-settings
 ```
+The module can also be found under Development in Configuration.
 
 ## Authors
 
