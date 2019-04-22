@@ -1,6 +1,6 @@
 name: Site Name Changer
 description: Changes the current name of the site to any specified value.
-package: custom
+package: Custom
 
 type: module
 core: 8.x

@@ -5,25 +5,17 @@ namespace Drupal\sitename_changer\Form;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 
-/**
- * Implements an example form.
- */
 class NameChangerForm extends FormBase {
 
-  /**
-   * {@inheritdoc}
-   */
   public function getFormId() {
     return 'sitename_changer';
   }
 
-  /**
-   * {@inheritdoc}
-   */
   public function buildForm(array $form, FormStateInterface $form_state) {
     $form['site_name'] = [
       '#type' => 'textfield',
       '#title' => $this->t("Current name: ". $this->getSiteName()),
+      // Able to show default value of site in textField
       //'#default_value' => $this->getSiteName(),
     ];
     $form['actions']['#type'] = 'actions';
@@ -35,19 +27,13 @@ class NameChangerForm extends FormBase {
     return $form;
   }
 
-  /**
-   * {@inheritdoc}
-   */
   public function validateForm(array &$form, FormStateInterface $form_state) {
-    /* Checks to see if specified name is the same as the current site name */
+    // Checks to see if specified name is the same as the current site name
     if ($form_state->getValue('site_name')==$this->getSiteName()) {
       $form_state->setErrorByName('site_name', $this->t('Site name is already set to '. $form_state->getValue('site_name')));
     }
   }
 
-  /**
-   * {@inheritdoc}
-   */
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $config = \Drupal::service('config.factory')->getEditable('system.site');
     $config->set('name', $form_state->getValue('site_name')); 
