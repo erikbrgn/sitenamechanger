@@ -1,7 +1,6 @@
 sitename_changer.content:
   path: '/custom-site-settings'
-  defaults: 
-    # _controller: 'Drupal\sitename_changer\Controller\Controller::myPage'
+  defaults:
     _title: 'Site Name Changer'
     _form: '\Drupal\sitename_changer\Form\NameChangerForm'
   requirements:
