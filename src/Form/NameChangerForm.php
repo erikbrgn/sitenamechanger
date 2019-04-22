@@ -23,7 +23,8 @@ class NameChangerForm extends FormBase {
   public function buildForm(array $form, FormStateInterface $form_state) {
     $form['site_name'] = [
       '#type' => 'textfield',
-      '#title' => $this->t("Current site name: " . $this->getSiteName()),
+      '#title' => $this->t("Current name: ". $this->getSiteName()),
+      //'#default_value' => $this->getSiteName(),
     ];
     $form['actions']['#type'] = 'actions';
     $form['actions']['submit'] = [
