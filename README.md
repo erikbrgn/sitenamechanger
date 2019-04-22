@@ -15,11 +15,11 @@ In order for this module to work you must have a site running Drupal 8. If you d
 
 Simply clone this repository and place it under.
 ```
-"my_root_folder"\modules\custom\
+"my_root_folder"\modules\
 ```
-If there is no custom folder either create it or just place the module in the modules folder.
+The module can be found under the Custom package tab in Extend. If you want to group other modules with this use package name "Custom".
 
-Go to Extend on your site and select sitenamechanger and then press install module.
+Go to Extend on your site and select sitenamechanger under Custom and then press install module.
 
 ## How to use
 To use the module, access it by adding this to your url.
