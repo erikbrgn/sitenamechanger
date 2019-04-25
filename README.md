@@ -31,5 +31,3 @@ The module can also be found as "Site Name Changer" under Development in Configu
 ## Authors
 
 * **Erik Berggren**  - [erikbrgn](https://github.com/erikbrgn)
-
-

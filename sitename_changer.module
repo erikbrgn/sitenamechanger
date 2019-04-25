@@ -1,7 +1,8 @@
-<?php 
+<?php
 
-/** 
- * Obsolete in Drupal8
+/**
  * @file
- * sitenamechanger module
+ * Obsolete in Drupal8.
+ *
+ * Sitenamechanger module.
  */
